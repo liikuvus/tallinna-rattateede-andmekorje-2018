@@ -1,0 +1,413 @@
+{
+  "currentVersion": 10.71,
+  "id": 0,
+  "name": "Jalgrattateed",
+  "type": "Feature Layer",
+  "parentLayer": null,
+  "defaultVisibility": true,
+  "minScale": 0,
+  "maxScale": 0,
+  "geometryType": "esriGeometryPolyline",
+  "description": "",
+  "copyrightText": "",
+  "editFieldsInfo": {
+    "creationDateField": "lisamis_kp",
+    "creatorField": "lisaja",
+    "editDateField": "muutmis_kp",
+    "editorField": "muutja"
+  },
+  "ownershipBasedAccessControlForFeatures": null,
+  "syncCanReturnChanges": false,
+  "relationships": [],
+  "isDataVersioned": false,
+  "isDataArchived": false,
+  "isCoGoEnabled": false,
+  "supportsRollbackOnFailureParameter": true,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSQL": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsCalculate": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsReturningGeometryCentroid": false,
+    "supportsSqlExpression": true
+  },
+  "extent": {
+    "xmin": 512391.9204000011,
+    "ymin": 6563280.109999999,
+    "xmax": 557993.7003000006,
+    "ymax": 6602967.75,
+    "spatialReference": {
+      "wkid": 3301,
+      "latestWkid": 3301
+    }
+  },
+  "sourceSpatialReference": {
+    "wkid": 3301,
+    "latestWkid": 3301
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "simple",
+      "symbol": {
+        "type": "esriSLS",
+        "style": "esriSLSSolid",
+        "color": [0, 80, 115, 255],
+        "width": 1.4
+      },
+      "label": "",
+      "description": ""
+    },
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "hasM": false,
+  "hasZ": false,
+  "allowGeometryUpdates": true,
+  "allowTrueCurvesUpdates": false,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+  "hasAttachments": false,
+  "supportsApplyEditsWithGlobalIds": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "objectIdField": "objectid",
+  "globalIdField": "",
+  "displayField": "markused",
+  "typeIdField": "",
+  "subtypeField": "",
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null,
+      "editable": false,
+      "nullable": false,
+      "defaultValue": null,
+      "modelName": "objectid"
+    },
+    {
+      "name": "rattatee_liik",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "rattatee_liik",
+      "domain": {
+        "type": "codedValue",
+        "name": "Teeliik_jalgrattatee",
+        "description": "Jalgrattatee liigid",
+        "codedValues": [
+          {
+            "name": "Jalgrattatee, määramata",
+            "code": 420
+          },
+          {
+            "name": "Sõiduteele markeeritud rattarada",
+            "code": 1
+          },
+          {
+            "name": "Jalgratta- ja jalgtee",
+            "code": 2
+          },
+          {
+            "name": "Planeeritav jalgrattatee",
+            "code": 3
+          },
+          {
+            "name": "muu",
+            "code": 999
+          },
+          {
+            "name": "muudatusettepanek",
+            "code": 4
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      },
+      "editable": true,
+      "nullable": false,
+      "defaultValue": 420,
+      "modelName": "rattatee_liik"
+    },
+    {
+      "name": "seisukord",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "SEISUKORD",
+      "domain": {
+        "type": "codedValue",
+        "name": "JR_seisukord",
+        "description": "Jalgrattatee seisukord",
+        "codedValues": [
+          {
+            "name": "Väga hea",
+            "code": 1
+          },
+          {
+            "name": "Hea",
+            "code": 2
+          },
+          {
+            "name": "Rahuldav",
+            "code": 3
+          },
+          {
+            "name": "Halb",
+            "code": 4
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue"
+      },
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "seisukord"
+    },
+    {
+      "name": "tüüplahendus",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "TÜÜPLAHENDUS",
+      "domain": {
+        "type": "codedValue",
+        "name": "JR_tyyplahendus",
+        "description": "Jalgrattatee tüüplahendus",
+        "codedValues": [
+          {
+            "name": "Eraldiseisev rattatee ja füüsiliselt eraldatud rattatee",
+            "code": 1
+          },
+          {
+            "name": "Jalgratta ja jalgtee eraldatud ruumis",
+            "code": 2
+          },
+          {
+            "name": "Jalgratta- ja jalgtee jagatud ruumis",
+            "code": 3
+          },
+          {
+            "name": "Rattarada sõiduteel (eraldatud füüsiliselt või markeeringuga)",
+            "code": 4
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDefaultValue"
+      },
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "tüüplahendus"
+    },
+    {
+      "name": "pohivork",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "PÕHIVÕRK",
+      "domain": {
+        "type": "codedValue",
+        "name": "Loogiline",
+        "description": "Loogikaoperaator: \"jah\", \"ei\", näitaja.",
+        "codedValues": [
+          {
+            "name": "Jah",
+            "code": 1
+          },
+          {
+            "name": "Ei",
+            "code": 2
+          },
+          {
+            "name": "Määramata",
+            "code": 0
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      },
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "pohivork"
+    },
+    {
+      "name": "tervisevork",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "TERVISEVÕRK",
+      "domain": {
+        "type": "codedValue",
+        "name": "Loogiline",
+        "description": "Loogikaoperaator: \"jah\", \"ei\", näitaja.",
+        "codedValues": [
+          {
+            "name": "Jah",
+            "code": 1
+          },
+          {
+            "name": "Ei",
+            "code": 2
+          },
+          {
+            "name": "Määramata",
+            "code": 0
+          }
+        ],
+        "mergePolicy": "esriMPTDefaultValue",
+        "splitPolicy": "esriSPTDuplicate"
+      },
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "tervisevork"
+    },
+    {
+      "name": "markused",
+      "type": "esriFieldTypeString",
+      "alias": "markused",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 254,
+      "defaultValue": null,
+      "modelName": "markused"
+    },
+    {
+      "name": "lisaja",
+      "type": "esriFieldTypeString",
+      "alias": "lisaja",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "length": 50,
+      "defaultValue": null,
+      "modelName": "lisaja"
+    },
+    {
+      "name": "lisamis_kp",
+      "type": "esriFieldTypeDate",
+      "alias": "lisamis_kp",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "length": 8,
+      "defaultValue": null,
+      "modelName": "lisamis_kp"
+    },
+    {
+      "name": "muutja",
+      "type": "esriFieldTypeString",
+      "alias": "muutja",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "length": 50,
+      "defaultValue": null,
+      "modelName": "muutja"
+    },
+    {
+      "name": "muutmis_kp",
+      "type": "esriFieldTypeDate",
+      "alias": "muutmis_kp",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "length": 8,
+      "defaultValue": null,
+      "modelName": "muutmis_kp"
+    }
+  ],
+  "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "SHAPE",
+    "domain": null,
+    "editable": true,
+    "nullable": true,
+    "defaultValue": null,
+    "modelName": "shape"
+  },
+  "indexes": [
+    {
+      "name": "r920_sde_rowid_uk",
+      "fields": "objectid",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "a758_ix1",
+      "fields": "shape",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "respectsDaylightSaving": false
+  },
+  "types": [],
+  "templates": [
+    {
+      "name": "Sõiduteele markeeritud rattarada",
+      "description": "",
+      "prototype": {
+        "attributes": {
+          "markused": null,
+          "rattatee_liik": 1,
+          "seisukord": null,
+          "tüüplahendus": null,
+          "pohivork": null,
+          "tervisevork": null
+        }
+      },
+      "drawingTool": "esriFeatureEditToolLine"
+    },
+    {
+      "name": "Jalgratta- ja jalgtee",
+      "description": "",
+      "prototype": {
+        "attributes": {
+          "markused": null,
+          "rattatee_liik": 2,
+          "seisukord": null,
+          "tüüplahendus": null,
+          "pohivork": null,
+          "tervisevork": null
+        }
+      },
+      "drawingTool": "esriFeatureEditToolLine"
+    },
+    {
+      "name": "Planeeritav jalgrattatee",
+      "description": "",
+      "prototype": {
+        "attributes": {
+          "markused": null,
+          "rattatee_liik": 3,
+          "seisukord": null,
+          "tüüplahendus": null,
+          "pohivork": null,
+          "tervisevork": null
+        }
+      },
+      "drawingTool": "esriFeatureEditToolLine"
+    }
+  ],
+  "maxRecordCount": 1000,
+  "supportedQueryFormats": "JSON, geoJSON",
+  "capabilities": "Query,Update,Uploads,Editing",
+  "useStandardizedQueries": true,
+  "standardMaxRecordCount": 8000,
+  "tileMaxRecordCount": 4000,
+  "maxRecordCountFactor": 1
+}
