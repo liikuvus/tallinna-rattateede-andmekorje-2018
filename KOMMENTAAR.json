@@ -1,0 +1,615 @@
+{
+  "currentVersion": 10.7,
+  "id": 0,
+  "name": "andmekorje_punktid",
+  "type": "Feature Layer",
+  "serviceItemId": "6b9959ee0a9249b48f78211351dea150",
+  "isView": true,
+  "isUpdatableView": true,
+  "sourceSchemaChangesAllowed": true,
+  "displayField": "KOMMENTAAR",
+  "description": "",
+  "copyrightText": "",
+  "defaultVisibility": true,
+  "editingInfo": { "lastEditDate": 1573196959659 },
+  "relationships": [],
+  "isDataVersioned": false,
+  "supportsAppend": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsTruncate": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSql": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsQuantizationEditMode": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsReturningQueryGeometry": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsQueryWithResultType": true,
+    "supportsSqlExpression": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsCountDistinct": true,
+    "supportsPercentileStatistics": true,
+    "supportsQueryAttachments": true,
+    "supportsLod": true,
+    "supportsQueryWithLodSR": false,
+    "supportedLodTypes": ["geohash"],
+    "supportsReturningGeometryCentroid": false,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsHavingClause": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsQueryWithCacheHint": true,
+    "supportsQueryAttachmentsWithReturnUrl": true
+  },
+  "useStandardizedQueries": true,
+  "geometryType": "esriGeometryPoint",
+  "minScale": 0,
+  "maxScale": 0,
+  "extent": {
+    "xmin": 533560.26339900331,
+    "ymin": 6579672.9084990006,
+    "xmax": 551905.43330100342,
+    "ymax": 6595647.1592010017,
+    "spatialReference": { "wkid": 3301, "latestWkid": 3301 }
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "Otsus",
+      "defaultSymbol": {
+        "color": [170, 170, 170, 255],
+        "size": 6,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [153, 153, 153, 64],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "defaultLabel": "Teised",
+      "uniqueValueInfos": [
+        {
+          "value": "4",
+          "symbol": {
+            "color": [255, 170, 0, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Arvestatakse tänava rekonstrueerimistööde teostamisel"
+        },
+        {
+          "value": "3",
+          "symbol": {
+            "color": [255, 255, 0, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Lisatud planeeritud tööde nimekirja"
+        },
+        {
+          "value": "5",
+          "symbol": {
+            "color": [230, 0, 0, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Läbivaadatud/Mittearvestatud"
+        },
+        {
+          "value": "0",
+          "symbol": {
+            "color": [56, 168, 0, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Parandatud/Teostatud"
+        },
+        {
+          "value": "6",
+          "symbol": {
+            "color": [0, 38, 115, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Linnaplaneerimise Amet"
+        },
+        {
+          "value": "2",
+          "symbol": {
+            "color": [190, 232, 255, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Kommunaalamet"
+        },
+        {
+          "value": "1",
+          "symbol": {
+            "color": [0, 112, 255, 255],
+            "size": 8.25,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0,
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "outline": {
+              "color": [0, 0, 0, 64],
+              "width": 1.5,
+              "type": "esriSLS",
+              "style": "esriSLSSolid"
+            }
+          },
+          "label": "Transpordiamet"
+        }
+      ]
+    },
+    "transparency": 0
+  },
+  "allowGeometryUpdates": false,
+  "hasAttachments": true,
+  "viewSourceHasAttachments": true,
+  "attachmentProperties": [
+    { "name": "name", "isEnabled": true },
+    { "name": "size", "isEnabled": true },
+    { "name": "contentType", "isEnabled": true },
+    { "name": "keywords", "isEnabled": true },
+    { "name": "exifInfo", "isEnabled": false }
+  ],
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM": false,
+  "hasZ": false,
+  "objectIdField": "OBJECTID",
+  "uniqueIdField": { "name": "OBJECTID", "isSystemMaintained": true },
+  "globalIdField": "GlobalID",
+  "typeIdField": "Otsus",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "KOMMENTAAR",
+      "type": "esriFieldTypeString",
+      "alias": "Kommentaar",
+      "sqlType": "sqlTypeOther",
+      "length": 250,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PILT",
+      "type": "esriFieldTypeGUID",
+      "alias": "Pilt",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "KUUPAEV",
+      "type": "esriFieldTypeDate",
+      "alias": "Kuupäev",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "TYYP",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Tüüp",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Tyyp",
+        "codedValues": [
+          { "name": "Äärekivi", "code": 0 },
+          { "name": "Ebatasane tee", "code": 1 },
+          { "name": "Muu", "code": 2 }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "NUMVOTES",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "NUMVOTES",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "GlobalID",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeOther",
+      "length": 38,
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Otsus",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Otsus",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": {
+        "type": "codedValue",
+        "name": "Otsus",
+        "codedValues": [
+          { "name": "Parandatud/Teostatud", "code": 0 },
+          { "name": "Lisatud planeeritud tööde nimekirja", "code": 3 },
+          {
+            "name": "Arvestatakse tänava rekonstrueerimistööde teostamisel",
+            "code": 4
+          },
+          { "name": "Läbivaadatud/Mittearvestatud", "code": 5 },
+          { "name": "Transpordiamet", "code": 1 },
+          { "name": "Kommunaalamet", "code": 2 },
+          { "name": "Linnaplaneerimise Amet", "code": 6 }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "Põhjendus",
+      "type": "esriFieldTypeString",
+      "alias": "Põhjendus",
+      "sqlType": "sqlTypeOther",
+      "length": 500,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Picture",
+      "type": "esriFieldTypeString",
+      "alias": "Picture",
+      "sqlType": "sqlTypeOther",
+      "length": 1000,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "kes",
+      "type": "esriFieldTypeString",
+      "alias": "Kes",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Märksõna",
+      "type": "esriFieldTypeString",
+      "alias": "Märksõna",
+      "sqlType": "sqlTypeOther",
+      "length": 256,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "indexes": [
+    {
+      "name": "PK__JALGRATT__F4B70D855712710B",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "user_27646.JALGRATTATEEDE_ANDMEKORJE_TULEM_COMMENTS2_Shape_sidx",
+      "fields": "SHAPE",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "FDO_GlobalID",
+      "fields": "GlobalID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    }
+  ],
+  "types": [
+    {
+      "id": 4,
+      "name": "Arvestatakse tänava rekonstrueerimistööde teostamisel",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Arvestatakse tänava rekonstrueerimistööde teostamisel",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 4,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Edastatud (TLA-le)",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Edastatud (TLA-le)",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 2,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Edastatud (TTA-le)",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Edastatud (TTA-le)",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 1,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lisatud planeeritud tööde nimekirja",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Lisatud planeeritud tööde nimekirja",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 3,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Läbivaadatud/Mittearvestatud",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Läbivaadatud/Mittearvestatud",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 5,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Parandatud/Teostatud",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Parandatud/Teostatud",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 0,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Linnaplaneerimise Amet",
+      "domains": {},
+      "templates": [
+        {
+          "name": "Linnaplaneerimise Amet",
+          "description": "",
+          "drawingTool": "esriFeatureEditToolNone",
+          "prototype": {
+            "attributes": {
+              "Otsus": 6,
+              "KOMMENTAAR": null,
+              "PILT": null,
+              "KUUPAEV": null,
+              "TYYP": null,
+              "NUMVOTES": null,
+              "Põhjendus": null,
+              "Picture": null,
+              "kes": null,
+              "Märksõna": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "hasStaticData": false,
+  "maxRecordCount": 1000,
+  "standardMaxRecordCount": 32000,
+  "tileMaxRecordCount": 8000,
+  "maxRecordCountFactor": 1,
+  "capabilities": "Query"
+}

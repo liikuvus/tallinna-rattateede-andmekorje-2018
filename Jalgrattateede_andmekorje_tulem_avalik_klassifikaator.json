@@ -1,0 +1,49 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "uniqueIdField": { "name": "OBJECTID", "isSystemMaintained": true },
+  "globalIdFieldName": "GlobalID",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": { "wkid": 3301, "latestWkid": 3301 },
+  "fields": [
+    {
+      "name": "value",
+      "type": "esriFieldTypeDouble",
+      "alias": "value",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Otsus",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Otsus",
+      "sqlType": "sqlTypeOther",
+      "domain": {
+        "type": "codedValue",
+        "name": "Otsus",
+        "codedValues": [
+          { "name": "Parandatud/Teostatud", "code": 0 },
+          { "name": "Lisatud planeeritud tööde nimekirja", "code": 3 },
+          {
+            "name": "Arvestatakse tänava rekonstrueerimistööde teostamisel",
+            "code": 4
+          },
+          { "name": "Läbivaadatud/Mittearvestatud", "code": 5 },
+          { "name": "Transpordiamet", "code": 1 },
+          { "name": "Kommunaalamet", "code": 2 },
+          { "name": "Linnaplaneerimise Amet", "code": 6 }
+        ]
+      },
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    { "attributes": { "value": 59, "Otsus": 0 } },
+    { "attributes": { "value": 231, "Otsus": 1 } },
+    { "attributes": { "value": 909, "Otsus": 2 } },
+    { "attributes": { "value": 3, "Otsus": 3 } },
+    { "attributes": { "value": 137, "Otsus": 4 } },
+    { "attributes": { "value": 21, "Otsus": 5 } },
+    { "attributes": { "value": 9, "Otsus": 6 } }
+  ]
+}

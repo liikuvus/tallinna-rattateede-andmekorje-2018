@@ -1,0 +1,38 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "uniqueIdField": { "name": "OBJECTID", "isSystemMaintained": true },
+  "globalIdFieldName": "GlobalID",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": { "wkid": 3301, "latestWkid": 3301 },
+  "fields": [
+    {
+      "name": "count_result",
+      "type": "esriFieldTypeDouble",
+      "alias": "count_result",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "TYYP",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Tüüp",
+      "sqlType": "sqlTypeOther",
+      "domain": {
+        "type": "codedValue",
+        "name": "Tyyp",
+        "codedValues": [
+          { "name": "Äärekivi", "code": 0 },
+          { "name": "Ebatasane tee", "code": 1 },
+          { "name": "Muu", "code": 2 }
+        ]
+      },
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    { "attributes": { "count_result": 349, "TYYP": 0 } },
+    { "attributes": { "count_result": 182, "TYYP": 1 } },
+    { "attributes": { "count_result": 766, "TYYP": 2 } }
+  ]
+}
