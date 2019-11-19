@@ -36,4 +36,3 @@ _Jalgrattateede seisukorra parendamist jätkatakse 2019. aastal._
 ### Andmed
 
 - Klassifikaator: https://services3.arcgis.com/FwX2qF9JecNSRnwr/arcgis/rest/services/Jalgrattateede_andmekorje_tulem_avalik/FeatureServer/0/query?f=json&where=(Otsus%3D0%20OR%20Otsus%3D3%20OR%20Otsus%3D4%20OR%20Otsus%3D5%20OR%20Otsus%3D1%20OR%20Otsus%3D2%20OR%20Otsus%3D6)&returnGeometry=false&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A513375.68021049193%2C%22ymin%22%3A6580317.361002195%2C%22xmax%22%3A578331.0184545018%2C%22ymax%22%3A6593414.262195998%2C%22spatialReference%22%3A%7B%22wkid%22%3A3301%2C%22latestWkid%22%3A3301%7D%7D&geometryType=esriGeometryEnvelope&inSR=3301&outFields=*&groupByFieldsForStatistics=Otsus&outStatistics=%5B%7B%22statisticType%22%3A%22count%22%2C%22onStatisticField%22%3A%22OBJECTID%22%2C%22outStatisticFieldName%22%3A%22value%22%7D%5D&outSR=3301
-- 
