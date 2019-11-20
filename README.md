@@ -16,6 +16,8 @@ _Kokku nimetati 1397 probleemkohta: 191 korral valmistas probleeme ebatasane tee
 
 - ArcGIS JSON formaadis: <https://services3.arcgis.com/FwX2qF9JecNSRnwr/arcgis/rest/services/rattateede_andmekorje_punktid/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=4326>
 - GeoJSON formaadis: <https://services3.arcgis.com/FwX2qF9JecNSRnwr/arcgis/rest/services/rattateede_andmekorje_punktid/FeatureServer/0/query?f=geojson&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=4326>
+- 0-999: <https://services3.arcgis.com/FwX2qF9JecNSRnwr/arcgis/rest/services/rattateede_andmekorje_punktid/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=4326&resultOffset=0&resultRecordCount=1000>
+- 1000 - ..: <https://services3.arcgis.com/FwX2qF9JecNSRnwr/arcgis/rest/services/rattateede_andmekorje_punktid/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&outSR=4326&resultOffset=1000&resultRecordCount=1000>
 - TYYP: andmefailides olevatekirjete liigitus, klassifikaator [TYYP.json](TYYP.json)
 - ArcGIS REST Services Directory > jalgrattateed: <https://gis.tallinn.ee/arcgis/rest/services/jalgrattateed>
 - Jalgrattateede Feature layeri metaandmed: <https://gis.tallinn.ee/arcgis/rest/services/jalgrattateed/jalgrattateed_kujundamata/FeatureServer/0?f=pjson>
